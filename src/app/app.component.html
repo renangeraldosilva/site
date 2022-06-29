@@ -11,10 +11,14 @@
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre nós</a></li>
+          <li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a class="nav-link scrollto" href="http://localhost:4200/" target="_blank">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -22,36 +26,170 @@
   </header>
 
   <section id="hero">
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>LR Cursos</h1>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+    <div class="hero-container">
+      <h1 data-aos="fade-down" data-aos-delay="350">LR Cursos</h1>
+      <p data-aos="fade-up" data-aos-delay="300">unc ullamcorper placerat quam, at dapibus odio. Aenean eu dolor
+        convallis, vulputate lectus commodo,<br> maximus arcuDuis posuere neque nec orci tristique viverra. Phasellus
+        congue ornare mauris, sed interdum tellus molestie vel.<br> Curabitur dapibus nulla non dolor molestie
+        convallis.
+        Vivamus maximus ex sapien, sed rhoncus nisl porttitor sit amet.</p>
     </div>
   </section>
 
   <main id="main">
-
     <section id="about">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-6">
+      <div class="container mt-5" data-aos="fade-up">
+        <div class="row" style="align-items: center;">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="350">
             <h2>Sobre nós</h2>
             <img src="../assets/img/about-us.jpg" class="about-us-img" />
           </div>
-          <div class="col-lg-6 about-us-text">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-              Ullamco laboris nisi ut aliquip ex ea commodo consequa
-              Duis aute irure dolor in reprehenderit in voluptate velit
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <div class="col-lg-6 about-us-text" data-aos="fade-left" data-aos-delay="300">
+            <p style=" font-size: 20px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus sit amet nisl suscipit
+              feugiat a sit amet justo. Fusce ante ex, varius eu ex in, congue accumsan urna. Duis pellentesque elit sed
+              est efficitur ultricies nec ut purus. Curabitur tempus odio vel porta molestie. Fusce quis ligula
+              tincidunt, volutpat odio lacinia, ullamcorper tellus. Aliquam scelerisque nibh ac justo rutrum
+              sollicitudin. Vivamus in mi blandit, fringilla lorem quis, vulputate odio. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Etiam id hendrerit tellus. Nulla sit amet vestibulum neque. Aliquam sed
+              tincidunt tellus. Pellentesque non ultricies lectus. Vestibulum nec interdum purus. Proin sit amet
+              efficitur mauris. Pellentesque convallis lectus et neque tempor, quis laoreet nunc posuere.
+
+              Nunc ullamcorper placerat quam, at dapibus odio. Aenean eu dolor convallis, vulputate lectus commodo,
+              maximus arcu. Duis posuere neque nec orci tristique viverra. Phasellus congue ornare mauris, sed interdum
+              tellus molestie vel. Curabitur dapibus nulla non dolor molestie convallis. Vivamus maximus ex sapien, sed
+              rhoncus nisl porttitor sit amet. Vestibulum pellentesque purus nunc. Donec neque velit, tincidunt eget
+              porttitor et, euismod ac nisl. Phasellus dictum ac magna at ornare. Nunc eget vehicula eros, quis vehicula
+              eros.
             </p>
           </div>
         </div>
       </div>
     </section>
-
   </main>
+
+  <section id="depoimentos">
+
+    <div class="row mt-5">
+      <div class="section-header" data-aos="fade-right" data-aos-delay="350">
+        <h2>Depoimentos</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card card-depoimento shadow-sm p-3" data-aos="fade-left" data-aos-delay="350">
+                  <h5 class="card-title">Card title 1</h5>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://static1.purepeople.com.br/articles/3/30/73/73/@/3473867-os-melhores-momentos-de-bruna-marquezine-624x600-2.jpg" />
+                      </div>
+                      <div class="col-8">
+                        <p>Integer quis purus metus. Sed urna nulla, commodo in tortor ut, mattis blandit mi. Sed eget
+                          pellentesque felis, ut mollis nisi. Aenean gravida nunc turpis, at molestie velit sollicitudin
+                          sed. Aliquam odio eros, euismod id accumsan in, sagittis quis turpis. Praesent odio massa,
+                          dapibus vitae eros nec, venenatis viverra urna. In augue elit, consectetur elementum nisl id,
+                          lobortis blandit odio.</p>
+
+                        <p>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-aos="fade-left" data-aos-delay="350">
+              <div class="d-flex justify-content-center">
+                <div class="card card-depoimento shadow-sm p-3">
+                  <h5 class="card-title">Card title 2</h5>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://i2.wp.com/www.cenariomt.com.br/wp-content/uploads/2021/07/3374224-reynaldo-gianecchini-surgiu-de-cabelo-br-624x600-1.jpg?resize=624%2C600&ssl=1" />
+                      </div>
+                      <div class="col-8">
+                        <p>Donec quis congue dolor. Aenean feugiat vestibulum augue, et tincidunt metus luctus nec. Ut
+                          semper odio tellus, sed hendrerit augue pharetra at. Vivamus fermentum augue id leo
+                          consectetur, vitae rhoncus tellus commodo. Morbi vitae mollis velit, ut vehicula augue. In hac
+                          habitasse platea dictumst. Vestibulum nunc arcu, luctus vel neque eget, tempus eleifend eros.
+                          Duis luctus ligula ligula, vitae sagittis turpis sollicitudin at. Aliquam eu tempor turpis,
+                          vel placerat quam. Curabitur enim eros, placerat in consequat eu, vehicula eget erat. Duis sit
+                          amet iaculis nunc. Morbi dignissim consequat velit quis venenatis.</p>
+
+                        <p>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-aos="fade-left" data-aos-delay="350">
+              <div class="d-flex justify-content-center">
+                <div class="card card-depoimento shadow-sm p-3">
+                  <h5 class="card-title">Card title 3</h5>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://static1.purepeople.com.br/articles/6/30/91/46/@/3496166-marina-ruy-barbosa-de-volta-a-tv-globo-624x600-2.jpg" />
+                      </div>
+                      <div class="col-8">
+                        <p>TProin a aliquet est. Donec rhoncus, arcu eget commodo ultrices, purus dolor gravida nisi, a
+                          efficitur enim ex sit amet est. Duis egestas, dui et convallis ullamcorper, dolor tortor
+                          hendrerit nisl, vitae malesuada risus augue sed urna. Etiam tempor ut risus at pulvinar. Nam
+                          eget ipsum in sem accumsan pharetra eget sit amet ante. Suspendisse consequat, arcu at
+                          efficitur scelerisque, risus lorem aliquet elit, vitae rhoncus nulla tellus non neque.
+                          Suspendisse non ante nec lectus sodales egestas.</p>
+
+                        <p>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                          <i class="bi bi-star-fill star-icon"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
   <section id="contact" class="section-bg">
 
@@ -59,18 +197,18 @@
       <div class="section-header">
         <h2>Contato</h2>
       </div>
-
+   
       <div class="row contact-info">
 
         <div class="col-md-4">
-          <div class="contact-address">
+          <div class="contact-address" data-aos="fade-up" data-aos-delay="350">
             <i class="bi bi-geo-alt"></i>
             <h3>Endereço</h3>
             <address> Av. Brg. Faria Lima, N° 3278 , Jardim Paulistano, São Paulo</address>
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="contact-phone">
             <i class="bi bi-phone"></i>
             <h3>Telefone</h3>
@@ -78,7 +216,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="650">
           <div class="contact-email">
             <i class="bi bi-envelope"></i>
             <h3>Email</h3>
@@ -101,10 +239,9 @@
               LR Cursos
             </a>
             <p>
-              In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet 
-              est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus.
-              Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis 
-              accusamus repellat cumque
+              Vivamus cursus, nunc ac finibus congue, tellus est posuere lacus, eu ullamcorper risus risus et leo. Donec
+              sodales tortor ac dapibus pellentesque. Donec sodales nisi id fringilla venenatis. Phasellus sit amet massa
+              mauris. Mauris pulvinar nunc tellus, vel rhoncus urna fringilla vel.
             </p>
           </div>
 
@@ -120,10 +257,14 @@
           <div class="col-lg-4 col-md-4 footer-contact">
             <h4>Redes Sociais</h4>
             <div class="social-links">
-              <a href="https://twitter.com/" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://twitter.com/" target="_blank" class="twitter"><i class="bi bi-twitter"
+                  data-aos="zoom-out" data-aos-delay="400"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="bi bi-facebook"
+                  data-aos="zoom-out" data-aos-delay="450"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="bi bi-instagram"
+                  data-aos="zoom-out" data-aos-delay="500"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank" class="linkedin"><i class="bi bi-linkedin"
+                  data-aos="zoom-out" data-aos-delay="550"></i></a>
             </div>
           </div>
         </div>
@@ -138,4 +279,3 @@
   </footer>
 
 </body>
-
